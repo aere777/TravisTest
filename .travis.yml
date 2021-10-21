@@ -1,6 +1,6 @@
-language: cpp
-compiler: gcc
- 
-script:
-- g++ main.cpp -o travis_gcc_cpp98
+language: python
+python:
+  - "3.9"
+# command to run tests
+script: pytest
 
